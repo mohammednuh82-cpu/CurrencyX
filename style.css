@@ -1,9 +1,7 @@
-/* ==============================
-   CurrencyX Currency Converter
-   ============================== */
 
 
-/* Reset */
+
+
 
 * {
     margin: 0;
@@ -12,7 +10,7 @@
 }
 
 
-/* Body */
+
 
 body {
     min-height: 100vh;
@@ -22,15 +20,15 @@ body {
     background:
         radial-gradient(
             circle at top left,
-            #1e40af,
+            #193aaa,
             transparent 35%
         ),
         radial-gradient(
             circle at bottom right,
-            #0f766e,
+            #4c6b68,
             transparent 35%
         ),
-        #020617;
+        #00030e;
 
     color: white;
 
@@ -44,7 +42,6 @@ body {
 }
 
 
-/* Main Container */
 
 .container {
     width: 100%;
@@ -54,7 +51,7 @@ body {
 }
 
 
-/* Main Heading */
+
 
 h1 {
     font-size: 52px;
@@ -67,7 +64,7 @@ h1 {
 }
 
 
-/* Subtitle */
+
 
 .subtitle {
     font-size: 19px;
@@ -78,7 +75,6 @@ h1 {
 }
 
 
-/* Converter Card */
 
 .converter-card {
     width: 100%;
@@ -102,7 +98,7 @@ h1 {
 }
 
 
-/* Input Group */
+
 
 .input-group {
     text-align: left;
@@ -111,7 +107,7 @@ h1 {
 }
 
 
-/* Labels */
+
 
 label {
     display: block;
@@ -125,8 +121,6 @@ label {
     margin-bottom: 9px;
 }
 
-
-/* Amount Input */
 
 input {
     width: 100%;
@@ -149,8 +143,6 @@ input {
 }
 
 
-/* Input Focus */
-
 input:focus {
     border-color: #38bdf8;
 
@@ -159,7 +151,6 @@ input:focus {
 }
 
 
-/* Currency Section */
 
 .currency-section {
     display: flex;
@@ -174,7 +165,7 @@ input:focus {
 }
 
 
-/* Currency Box */
+
 
 .currency-box {
     flex: 1;
@@ -183,7 +174,7 @@ input:focus {
 }
 
 
-/* Select */
+
 
 select {
     width: 100%;
@@ -208,14 +199,14 @@ select {
 }
 
 
-/* Select Focus */
+
 
 select:focus {
     border-color: #38bdf8;
 }
 
 
-/* Swap Button */
+
 
 .swap-button {
     width: 50px;
@@ -242,7 +233,7 @@ select:focus {
 }
 
 
-/* Swap Hover */
+
 
 .swap-button:hover {
     background: #1e293b;
@@ -253,7 +244,7 @@ select:focus {
 }
 
 
-/* Convert Button */
+
 
 .convert-button {
     width: 100%;
@@ -282,7 +273,7 @@ select:focus {
 }
 
 
-/* Convert Hover */
+
 
 .convert-button:hover {
     transform: translateY(-2px);
@@ -292,7 +283,7 @@ select:focus {
 }
 
 
-/* Result Box */
+
 
 .result-box {
     margin-top: 30px;
@@ -307,7 +298,7 @@ select:focus {
 }
 
 
-/* Result Label */
+
 
 .result-label {
     color: #94a3b8;
@@ -322,7 +313,7 @@ select:focus {
 }
 
 
-/* Result */
+
 
 #result {
     font-size: 25px;
@@ -332,10 +323,6 @@ select:focus {
     line-height: 1.4;
 }
 
-
-/* ==============================
-   Responsive Design
-   ============================== */
 
 @media (max-width: 700px) {
 
